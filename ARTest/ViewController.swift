@@ -32,7 +32,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, AVAudioPlayerDelegate
         sceneView.scene = scene
         
         // 再生する音源のURLを生成
-        let soundFilePath : String = Bundle.main.path(forResource: "00", ofType: "mp3")!
+        let soundFilePath : String = Bundle.main.path(forResource: "haido-mo", ofType: "m4a")!
         let fileURL : URL = URL(fileURLWithPath: soundFilePath)
         
         do{
