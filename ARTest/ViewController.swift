@@ -40,6 +40,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, AVAudioPlayerDelegate
         let gesture = UITapGestureRecognizer(target: self, action: #selector(self.saisei))
         extraView.addGestureRecognizer(gesture)
         sceneView.addSubview(extraView)
+        sceneView.addGestureRecognizer(gesture)
         
         
         // 再生する音源のURLを生成
