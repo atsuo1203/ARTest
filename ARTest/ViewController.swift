@@ -9,10 +9,12 @@
 import UIKit
 import SceneKit
 import ARKit
+import AVFoundation
 
-class ViewController: UIViewController, ARSCNViewDelegate {
+class ViewController: UIViewController, ARSCNViewDelegate, AVAudioPlayerDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
+    var audioPlayer : AVAudioPlayer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,10 +26,44 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.showsStatistics = true
         
         // Create a new scene
-        let scene = SCNScene(named: "art.scnassets/ship.scn")!
+        let scene = SCNScene(named: "art.scnassets/aichan.scn")!
         
         // Set the scene to the view
         sceneView.scene = scene
+        
+        let gesture = UITapGestureRecognizer(target: self, action: #selector(self.saisei))
+        sceneView.addGestureRecognizer(gesture)
+        
+        
+        // 再生する音源のURLを生成
+        let soundFilePath : String = Bundle.main.path(forResource: "haido-mo", ofType: "m4a")!
+        let fileURL : URL = URL(fileURLWithPath: soundFilePath)
+        
+        do{
+            // AVAudioPlayerのインスタンス化
+            audioPlayer = try AVAudioPlayer(contentsOf: fileURL)
+            // AVAudioPlayerのデリゲートをセット
+            audioPlayer.delegate = self
+        }
+        catch{
+        }
+        
+        //saisei()
+    }
+    
+    // 声の再生メソッド
+    @objc func saisei() {
+        audioPlayer.play()
+    }
+    
+    // 音楽再生が成功した時に呼ばれるメソッド
+    func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
+        print("Music Finish")
+    }
+    
+    // デコード中にエラーが起きた時に呼ばれるメソッド
+    func audioPlayerDecodeErrorDidOccur(_ player: AVAudioPlayer, error: Error?) {
+        print("Error")
     }
     
     override func viewWillAppear(_ animated: Bool) {

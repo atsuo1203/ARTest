@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0D95E001F4D8E8D005D2DA0 /* 00.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C0D95DFF1F4D8E8D005D2DA0 /* 00.mp3 */; };
+		C0D95E021F4DCBBC005D2DA0 /* haido-mo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C0D95E011F4DCBBC005D2DA0 /* haido-mo.m4a */; };
 		C0DB05551F39A04700C7A188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DB05541F39A04700C7A188 /* AppDelegate.swift */; };
 		C0DB05571F39A04700C7A188 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C0DB05561F39A04700C7A188 /* art.scnassets */; };
 		C0DB05591F39A04700C7A188 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DB05581F39A04700C7A188 /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		C0DB05611F39A04700C7A188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0DB055F1F39A04700C7A188 /* LaunchScreen.storyboard */; };
 		C0DB056C1F39A04700C7A188 /* ARTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DB056B1F39A04700C7A188 /* ARTestTests.swift */; };
 		C0DB05771F39A04700C7A188 /* ARTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DB05761F39A04700C7A188 /* ARTestUITests.swift */; };
+		C0E9D1401F4D767E00D5B1A4 /* aichan.scn in Resources */ = {isa = PBXBuildFile; fileRef = C0E9D13F1F4D767E00D5B1A4 /* aichan.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C0D95DFF1F4D8E8D005D2DA0 /* 00.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 00.mp3; sourceTree = "<group>"; };
+		C0D95E011F4DCBBC005D2DA0 /* haido-mo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "haido-mo.m4a"; sourceTree = "<group>"; };
 		C0DB05511F39A04700C7A188 /* ARTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0DB05541F39A04700C7A188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0DB05561F39A04700C7A188 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		C0DB05721F39A04700C7A188 /* ARTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0DB05761F39A04700C7A188 /* ARTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTestUITests.swift; sourceTree = "<group>"; };
 		C0DB05781F39A04700C7A188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0E9D13F1F4D767E00D5B1A4 /* aichan.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = aichan.scn; path = art.scnassets/aichan.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 		C0DB05531F39A04700C7A188 /* ARTest */ = {
 			isa = PBXGroup;
 			children = (
+				C0D95DFF1F4D8E8D005D2DA0 /* 00.mp3 */,
+				C0D95E011F4DCBBC005D2DA0 /* haido-mo.m4a */,
 				C0DB05541F39A04700C7A188 /* AppDelegate.swift */,
 				C0DB05561F39A04700C7A188 /* art.scnassets */,
 				C0DB05581F39A04700C7A188 /* ViewController.swift */,
@@ -106,6 +114,7 @@
 				C0DB055D1F39A04700C7A188 /* Assets.xcassets */,
 				C0DB055F1F39A04700C7A188 /* LaunchScreen.storyboard */,
 				C0DB05621F39A04700C7A188 /* Info.plist */,
+				C0E9D13F1F4D767E00D5B1A4 /* aichan.scn */,
 			);
 			path = ARTest;
 			sourceTree = "<group>";
@@ -236,6 +245,9 @@
 				C0DB05611F39A04700C7A188 /* LaunchScreen.storyboard in Resources */,
 				C0DB055E1F39A04700C7A188 /* Assets.xcassets in Resources */,
 				C0DB055C1F39A04700C7A188 /* Main.storyboard in Resources */,
+				C0D95E001F4D8E8D005D2DA0 /* 00.mp3 in Resources */,
+				C0D95E021F4DCBBC005D2DA0 /* haido-mo.m4a in Resources */,
+				C0E9D1401F4D767E00D5B1A4 /* aichan.scn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
