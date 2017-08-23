@@ -14,6 +14,7 @@ import AVFoundation
 class ViewController: UIViewController, ARSCNViewDelegate, AVAudioPlayerDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
+    @IBOutlet var extraView: UIView!
     var audioPlayer : AVAudioPlayer!
     
     override func viewDidLoad() {
@@ -30,6 +31,11 @@ class ViewController: UIViewController, ARSCNViewDelegate, AVAudioPlayerDelegate
         
         // Set the scene to the view
         sceneView.scene = scene
+        let width = 50 as CGFloat
+        let height = 50 as CGFloat
+        let distanse = 10 as CGFloat
+        extraView.frame = CGRect(x: UIScreen.main.bounds.width - width - distanse, y: UIScreen.main.bounds.height - height - distanse * 2, width: width, height: height)
+        sceneView.addSubview(extraView)
         
         // 再生する音源のURLを生成
         let soundFilePath : String = Bundle.main.path(forResource: "haido-mo", ofType: "m4a")!
