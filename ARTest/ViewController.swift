@@ -15,6 +15,8 @@ class ViewController: UIViewController, ARSCNViewDelegate, AVAudioPlayerDelegate
 
     @IBOutlet var sceneView: ARSCNView!
     var audioPlayer : AVAudioPlayer!
+    var count = 0
+    let oudios = 4
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,10 +35,24 @@ class ViewController: UIViewController, ARSCNViewDelegate, AVAudioPlayerDelegate
         
         let gesture = UITapGestureRecognizer(target: self, action: #selector(self.saisei))
         sceneView.addGestureRecognizer(gesture)
+    }
+    
+    // 声の再生メソッド
+    @objc func saisei() {
         
+        var fotResource = ""
         
+        if count == 0 {
+            fotResource = "haido-mo"
+        }else if count == 1 {
+            fotResource = "10sai"
+        }else if count == 2 {
+            fotResource = "5sai"
+        }else if count == 3 {
+            fotResource = "0sai"
+        }
         // 再生する音源のURLを生成
-        let soundFilePath : String = Bundle.main.path(forResource: "haido-mo", ofType: "m4a")!
+        let soundFilePath : String = Bundle.main.path(forResource: fotResource, ofType: "m4a")!
         let fileURL : URL = URL(fileURLWithPath: soundFilePath)
         
         do{
@@ -47,13 +63,12 @@ class ViewController: UIViewController, ARSCNViewDelegate, AVAudioPlayerDelegate
         }
         catch{
         }
-        
-        //saisei()
-    }
-    
-    // 声の再生メソッド
-    @objc func saisei() {
         audioPlayer.play()
+        
+        count = count + 1
+        if count > oudios - 1 {
+            count = 0
+        }
     }
     
     // 音楽再生が成功した時に呼ばれるメソッド
