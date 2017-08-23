@@ -14,7 +14,6 @@ import AVFoundation
 class ViewController: UIViewController, ARSCNViewDelegate, AVAudioPlayerDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
-    @IBOutlet var extraView: UIView!
     var audioPlayer : AVAudioPlayer!
     
     override func viewDidLoad() {
@@ -32,14 +31,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, AVAudioPlayerDelegate
         // Set the scene to the view
         sceneView.scene = scene
         
-        //extraView
-        let width = 50 as CGFloat
-        let height = 50 as CGFloat
-        let distanse = 10 as CGFloat
-        extraView.frame = CGRect(x: UIScreen.main.bounds.width - width - distanse, y: UIScreen.main.bounds.height - height - distanse * 2, width: width, height: height)
         let gesture = UITapGestureRecognizer(target: self, action: #selector(self.saisei))
-        extraView.addGestureRecognizer(gesture)
-        sceneView.addSubview(extraView)
         sceneView.addGestureRecognizer(gesture)
         
         
