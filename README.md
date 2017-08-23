@@ -12,4 +12,4 @@
 
 ### キズナアイちゃん
 
-![aichan](https://github.com/atsuo1203/ARTest/blob/aichan/IMG_0033.jpg)
+![aichan](https://github.com/atsuo1203/ARTest/blob/master/IMG_0033.jpg)
