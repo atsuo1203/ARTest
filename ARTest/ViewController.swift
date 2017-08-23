@@ -31,6 +31,10 @@ class ViewController: UIViewController, ARSCNViewDelegate, AVAudioPlayerDelegate
         // Set the scene to the view
         sceneView.scene = scene
         
+        let gesture = UITapGestureRecognizer(target: self, action: #selector(self.saisei))
+        sceneView.addGestureRecognizer(gesture)
+        
+        
         // 再生する音源のURLを生成
         let soundFilePath : String = Bundle.main.path(forResource: "haido-mo", ofType: "m4a")!
         let fileURL : URL = URL(fileURLWithPath: soundFilePath)
@@ -44,20 +48,12 @@ class ViewController: UIViewController, ARSCNViewDelegate, AVAudioPlayerDelegate
         catch{
         }
         
-        saisei()
+        //saisei()
     }
     
     // 声の再生メソッド
-    func saisei() {
-        // playingプロパティがtrueであれば音源再生中
-        if audioPlayer.isPlaying == true {
-            
-            // audioPlayerを一時停止
-            audioPlayer.pause()
-        } else {
-            // audioPlayerの再生
-            audioPlayer.play()
-        }
+    @objc func saisei() {
+        audioPlayer.play()
     }
     
     // 音楽再生が成功した時に呼ばれるメソッド
