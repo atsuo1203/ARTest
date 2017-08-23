@@ -60,15 +60,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, AVAudioPlayerDelegate
     
     // 声の再生メソッド
     @objc func saisei() {
-        // playingプロパティがtrueであれば音源再生中
-        if audioPlayer.isPlaying == true {
-            
-            // audioPlayerを一時停止
-            audioPlayer.pause()
-        } else {
-            // audioPlayerの再生
-            audioPlayer.play()
-        }
+        audioPlayer.play()
     }
     
     // 音楽再生が成功した時に呼ばれるメソッド
