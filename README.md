@@ -1,4 +1,4 @@
-# ARTest
+# Kizuna_AI_chan
 
 ## 環境
 
