@@ -44,7 +44,7 @@
 		C0D95E031F4DDA5A005D2DA0 /* 10sai.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 10sai.m4a; sourceTree = "<group>"; };
 		C0D95E051F4DDA5B005D2DA0 /* 0sai.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 0sai.m4a; sourceTree = "<group>"; };
 		C0D95E0B1F4DDDD2005D2DA0 /* 5sai.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 5sai.m4a; sourceTree = "<group>"; };
-		C0DB05511F39A04700C7A188 /* ARTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0DB05511F39A04700C7A188 /* KizunaAiChan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KizunaAiChan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0DB05541F39A04700C7A188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0DB05561F39A04700C7A188 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		C0DB05581F39A04700C7A188 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,10 +52,10 @@
 		C0DB055D1F39A04700C7A188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0DB05601F39A04700C7A188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0DB05621F39A04700C7A188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0DB05671F39A04700C7A188 /* ARTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0DB05671F39A04700C7A188 /* KizunaAiChanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KizunaAiChanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0DB056B1F39A04700C7A188 /* ARTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTestTests.swift; sourceTree = "<group>"; };
 		C0DB056D1F39A04700C7A188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0DB05721F39A04700C7A188 /* ARTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0DB05721F39A04700C7A188 /* KizunaAiChanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KizunaAiChanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0DB05761F39A04700C7A188 /* ARTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTestUITests.swift; sourceTree = "<group>"; };
 		C0DB05781F39A04700C7A188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0E9D13F1F4D767E00D5B1A4 /* aichan.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = aichan.scn; path = art.scnassets/aichan.scn; sourceTree = "<group>"; };
@@ -89,9 +89,9 @@
 		C0DB05481F39A04700C7A188 = {
 			isa = PBXGroup;
 			children = (
-				C0DB05531F39A04700C7A188 /* ARTest */,
-				C0DB056A1F39A04700C7A188 /* ARTestTests */,
-				C0DB05751F39A04700C7A188 /* ARTestUITests */,
+				C0DB05531F39A04700C7A188 /* KizunaAiChan */,
+				C0DB056A1F39A04700C7A188 /* KizunaAiChanTests */,
+				C0DB05751F39A04700C7A188 /* KizunaAiChanUITests */,
 				C0DB05521F39A04700C7A188 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,14 +99,14 @@
 		C0DB05521F39A04700C7A188 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C0DB05511F39A04700C7A188 /* ARTest.app */,
-				C0DB05671F39A04700C7A188 /* ARTestTests.xctest */,
-				C0DB05721F39A04700C7A188 /* ARTestUITests.xctest */,
+				C0DB05511F39A04700C7A188 /* KizunaAiChan.app */,
+				C0DB05671F39A04700C7A188 /* KizunaAiChanTests.xctest */,
+				C0DB05721F39A04700C7A188 /* KizunaAiChanUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C0DB05531F39A04700C7A188 /* ARTest */ = {
+		C0DB05531F39A04700C7A188 /* KizunaAiChan */ = {
 			isa = PBXGroup;
 			children = (
 				C0D95E011F4DCBBC005D2DA0 /* haido-mo.m4a */,
@@ -122,33 +122,33 @@
 				C0DB05621F39A04700C7A188 /* Info.plist */,
 				C0E9D13F1F4D767E00D5B1A4 /* aichan.scn */,
 			);
-			path = ARTest;
+			path = KizunaAiChan;
 			sourceTree = "<group>";
 		};
-		C0DB056A1F39A04700C7A188 /* ARTestTests */ = {
+		C0DB056A1F39A04700C7A188 /* KizunaAiChanTests */ = {
 			isa = PBXGroup;
 			children = (
 				C0DB056B1F39A04700C7A188 /* ARTestTests.swift */,
 				C0DB056D1F39A04700C7A188 /* Info.plist */,
 			);
-			path = ARTestTests;
+			path = KizunaAiChanTests;
 			sourceTree = "<group>";
 		};
-		C0DB05751F39A04700C7A188 /* ARTestUITests */ = {
+		C0DB05751F39A04700C7A188 /* KizunaAiChanUITests */ = {
 			isa = PBXGroup;
 			children = (
 				C0DB05761F39A04700C7A188 /* ARTestUITests.swift */,
 				C0DB05781F39A04700C7A188 /* Info.plist */,
 			);
-			path = ARTestUITests;
+			path = KizunaAiChanUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C0DB05501F39A04700C7A188 /* ARTest */ = {
+		C0DB05501F39A04700C7A188 /* KizunaAiChan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0DB057B1F39A04700C7A188 /* Build configuration list for PBXNativeTarget "ARTest" */;
+			buildConfigurationList = C0DB057B1F39A04700C7A188 /* Build configuration list for PBXNativeTarget "KizunaAiChan" */;
 			buildPhases = (
 				C0DB054D1F39A04700C7A188 /* Sources */,
 				C0DB054E1F39A04700C7A188 /* Frameworks */,
@@ -158,14 +158,14 @@
 			);
 			dependencies = (
 			);
-			name = ARTest;
+			name = KizunaAiChan;
 			productName = ARTest;
-			productReference = C0DB05511F39A04700C7A188 /* ARTest.app */;
+			productReference = C0DB05511F39A04700C7A188 /* KizunaAiChan.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C0DB05661F39A04700C7A188 /* ARTestTests */ = {
+		C0DB05661F39A04700C7A188 /* KizunaAiChanTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0DB057E1F39A04700C7A188 /* Build configuration list for PBXNativeTarget "ARTestTests" */;
+			buildConfigurationList = C0DB057E1F39A04700C7A188 /* Build configuration list for PBXNativeTarget "KizunaAiChanTests" */;
 			buildPhases = (
 				C0DB05631F39A04700C7A188 /* Sources */,
 				C0DB05641F39A04700C7A188 /* Frameworks */,
@@ -176,14 +176,14 @@
 			dependencies = (
 				C0DB05691F39A04700C7A188 /* PBXTargetDependency */,
 			);
-			name = ARTestTests;
+			name = KizunaAiChanTests;
 			productName = ARTestTests;
-			productReference = C0DB05671F39A04700C7A188 /* ARTestTests.xctest */;
+			productReference = C0DB05671F39A04700C7A188 /* KizunaAiChanTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C0DB05711F39A04700C7A188 /* ARTestUITests */ = {
+		C0DB05711F39A04700C7A188 /* KizunaAiChanUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0DB05811F39A04700C7A188 /* Build configuration list for PBXNativeTarget "ARTestUITests" */;
+			buildConfigurationList = C0DB05811F39A04700C7A188 /* Build configuration list for PBXNativeTarget "KizunaAiChanUITests" */;
 			buildPhases = (
 				C0DB056E1F39A04700C7A188 /* Sources */,
 				C0DB056F1F39A04700C7A188 /* Frameworks */,
@@ -194,9 +194,9 @@
 			dependencies = (
 				C0DB05741F39A04700C7A188 /* PBXTargetDependency */,
 			);
-			name = ARTestUITests;
+			name = KizunaAiChanUITests;
 			productName = ARTestUITests;
-			productReference = C0DB05721F39A04700C7A188 /* ARTestUITests.xctest */;
+			productReference = C0DB05721F39A04700C7A188 /* KizunaAiChanUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -222,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C0DB054C1F39A04700C7A188 /* Build configuration list for PBXProject "ARTest" */;
+			buildConfigurationList = C0DB054C1F39A04700C7A188 /* Build configuration list for PBXProject "KizunaAiChan" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -235,9 +235,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C0DB05501F39A04700C7A188 /* ARTest */,
-				C0DB05661F39A04700C7A188 /* ARTestTests */,
-				C0DB05711F39A04700C7A188 /* ARTestUITests */,
+				C0DB05501F39A04700C7A188 /* KizunaAiChan */,
+				C0DB05661F39A04700C7A188 /* KizunaAiChanTests */,
+				C0DB05711F39A04700C7A188 /* KizunaAiChanUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -306,12 +306,12 @@
 /* Begin PBXTargetDependency section */
 		C0DB05691F39A04700C7A188 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C0DB05501F39A04700C7A188 /* ARTest */;
+			target = C0DB05501F39A04700C7A188 /* KizunaAiChan */;
 			targetProxy = C0DB05681F39A04700C7A188 /* PBXContainerItemProxy */;
 		};
 		C0DB05741F39A04700C7A188 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C0DB05501F39A04700C7A188 /* ARTest */;
+			target = C0DB05501F39A04700C7A188 /* KizunaAiChan */;
 			targetProxy = C0DB05731F39A04700C7A188 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -448,7 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z793E54W8T;
-				INFOPLIST_FILE = ARTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/KizunaAiChan/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cps.ARTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -462,7 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z793E54W8T;
-				INFOPLIST_FILE = ARTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/KizunaAiChan/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cps.ARTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,7 +483,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARTest.app/ARTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KizunaAiChan.app/KizunaAiChan";
 			};
 			name = Debug;
 		};
@@ -499,7 +499,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARTest.app/ARTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KizunaAiChan.app/KizunaAiChan";
 			};
 			name = Release;
 		};
@@ -536,7 +536,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C0DB054C1F39A04700C7A188 /* Build configuration list for PBXProject "ARTest" */ = {
+		C0DB054C1F39A04700C7A188 /* Build configuration list for PBXProject "KizunaAiChan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0DB05791F39A04700C7A188 /* Debug */,
@@ -545,7 +545,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0DB057B1F39A04700C7A188 /* Build configuration list for PBXNativeTarget "ARTest" */ = {
+		C0DB057B1F39A04700C7A188 /* Build configuration list for PBXNativeTarget "KizunaAiChan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0DB057C1F39A04700C7A188 /* Debug */,
@@ -554,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0DB057E1F39A04700C7A188 /* Build configuration list for PBXNativeTarget "ARTestTests" */ = {
+		C0DB057E1F39A04700C7A188 /* Build configuration list for PBXNativeTarget "KizunaAiChanTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0DB057F1F39A04700C7A188 /* Debug */,
@@ -563,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0DB05811F39A04700C7A188 /* Build configuration list for PBXNativeTarget "ARTestUITests" */ = {
+		C0DB05811F39A04700C7A188 /* Build configuration list for PBXNativeTarget "KizunaAiChanUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0DB05821F39A04700C7A188 /* Debug */,

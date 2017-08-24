@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ARTest.xcodeproj">
+      location = "self:/Users/atsuo/work/gitRepository/atsuo/Kizuna_AI_chan/KizunaAiChan.xcodeproj">
    </FileRef>
 </Workspace>
