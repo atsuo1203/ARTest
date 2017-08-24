@@ -450,7 +450,7 @@
 				DEVELOPMENT_TEAM = Z793E54W8T;
 				INFOPLIST_FILE = "$(SRCROOT)/KizunaAiChan/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cps.ARTest;
+				PRODUCT_BUNDLE_IDENTIFIER = cps.KizunaAiChan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,7 +464,7 @@
 				DEVELOPMENT_TEAM = Z793E54W8T;
 				INFOPLIST_FILE = "$(SRCROOT)/KizunaAiChan/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cps.ARTest;
+				PRODUCT_BUNDLE_IDENTIFIER = cps.KizunaAiChan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
